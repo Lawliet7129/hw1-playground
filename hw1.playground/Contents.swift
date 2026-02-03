@@ -22,7 +22,6 @@ struct YourGame: AdventureGame {
     /// - Parameter context: The object you use to write output and end the game.
     mutating func start(context: AdventureGameContext) {
         // TODO: Remove this and implement logic to start your game!
-        playIntroduction()
         context.write("Welcome to Generic Adventure Game!")
     }
     
